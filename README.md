@@ -1,3 +1,3 @@
 # FRC-2020
-ini dokumentasi programming untuk FRC 2020
-yoyoyo
+
+For FRC 2020 Code Colaboration and Documentation
