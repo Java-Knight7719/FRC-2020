@@ -31,11 +31,11 @@ public class Hang extends Command {
 
     if(Robot.OI.getP1Button(RobotMap.P1LBumper) && encoder <= 1) {
 
-      //Robot.Hanger.setLifterPower(0.5);
+      Robot.Hanger.setLifterPower(0.5);
 
     }else if(Robot.OI.getP1Button(RobotMap.P1B) && encoder >= 0) {
 
-      //Robot.Hanger.setLifterPower(-0.5);
+      Robot.Hanger.setLifterPower(-0.5);
       
     }
 
