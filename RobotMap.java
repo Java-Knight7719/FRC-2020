@@ -13,7 +13,7 @@ public class RobotMap {
   
   public static final int m1_neo = 1;
   public static final int m2_neo = 2;
-	public static final int m3_neo = 3;
+  public static final int m3_neo = 3;
   public static final int m4_neo = 4;
   public static final int m5_neo = 5;
   public static final int m6_neo = 6;
