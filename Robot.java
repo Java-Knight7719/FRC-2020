@@ -12,7 +12,7 @@ import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.command.Scheduler;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import frc.robot.subsystems.DriveTrain;
-import frc.robot.subsystems.ExtCamera;
+import frc.robot.subsystems.Camera;
 import frc.robot.subsystems.Hanger;
 import frc.robot.subsystems.Intake;
 import frc.robot.subsystems.Shooter;
@@ -23,7 +23,7 @@ public class Robot extends TimedRobot {
 
   public static OI OI;
   public static DriveTrain DriveTrain;
-  public static ExtCamera ExtCamera;
+  public static Camera ExtCamera;
   public static Intake Intake;
   public static Shooter Shooter;
   public static Hanger Hanger;
@@ -91,8 +91,6 @@ public class Robot extends TimedRobot {
   public void teleopPeriodic() {
 
     Scheduler.getInstance().run();
-    SmartDashboard.putNumber("RPM", -Robot.Shooter.encoder.getVelocity());
-    System.out.println(-Robot.Shooter.encoder.getVelocity());
 
   }
 
