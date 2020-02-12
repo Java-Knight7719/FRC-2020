@@ -57,6 +57,7 @@ public class Shoot extends Command {
         Robot.Shooter.setpoint = 0;
         Robot.Shooter.encoder.setPosition(0.0);
         Robot.Shooter.outputPower = 0.0;
+        
       }else if(-Robot.Shooter.encoder.getVelocity() >= 1500 && -Robot.Shooter.encoder.getVelocity() <= 2000) {
 
         Robot.Shooter.outputPower = 1.0;
