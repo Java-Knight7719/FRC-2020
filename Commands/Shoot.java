@@ -33,7 +33,7 @@ public class Shoot extends Command {
       Robot.Shooter.sensorPosition = Robot.Shooter.encoder.getPosition() * Robot.Shooter.kDriveTick2Feet;
 
 
-      /////// Get Joystick Command ///////
+      /////// Get setPoint ///////
 
       if (Robot.OI.getP1Button(RobotMap.P1A) == true) {
 
